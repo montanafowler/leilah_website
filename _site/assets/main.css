@@ -9,14 +9,18 @@ body { background: #aa0f00; }
 
 #tag_menu_image { width: 100%; }
 
+ul { display: -webkit-flex; display: flex; flex-wrap: wrap; }
+
+li { height: 40vh; flex-grow: 1; }
+
+.person_collage { max-height: 100%; /*min-width: 100%;*/ /*object-fit: cover;*/ /*vertical-align: bottom;*/ -webkit-flex: 3; -ms-flex: 3; flex: 3; background-color: #00f155; padding: 10px; }
+
 body { font-family: Arial, Helvetica, sans-serif; }
 
 /* Style the header */
 header { background-color: #666; padding: 30px; text-align: center; font-size: 35px; color: white; }
 
 /* Container for flexboxes */
-section { display: -webkit-flex; display: flex; }
-
 section { display: -webkit-flex; display: flex; }
 
 /* Style the navigation menu */
@@ -26,7 +30,7 @@ nav { -webkit-flex: 1; -ms-flex: 1; flex: 1; background: #ccc; padding: 20px; }
 nav ul { list-style-type: none; padding: 0; }
 
 /* Style the content */
-article { -webkit-flex: 3; -ms-flex: 3; flex: 3; background-color: #f1f1f1; padding: 10px; }
+article { -webkit-flex: 3; -ms-flex: 3; flex: 3; background-color: #00f155; padding: 10px; }
 
 /* Style the footer */
 footer { background-color: #777; padding: 10px; text-align: center; color: white; }
