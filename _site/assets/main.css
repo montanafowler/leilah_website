@@ -3,17 +3,17 @@ body { font-family: Futura, "Trebuchet MS", Arial, sans-serif; color: #dedede; b
 body a { color: #fff; }
 
 /*body { margin: 10%; }*/
-body { background: #aa0f00; }
+body { background-image: url("https://raw.githubusercontent.com/montanafowler/leilah_website/main/images/crumpled_paper.jpg"); background-color: #cccccc; }
 
 * { box-sizing: border-box; }
 
-#tag_menu_image { width: 100%; }
+#tag_menu_image { width: 200px; }
 
 ul { display: -webkit-flex; display: flex; flex-wrap: wrap; }
 
 li { height: 40vh; flex-grow: 1; }
 
-.person_collage { max-height: 100%; /*min-width: 100%;*/ /*object-fit: cover;*/ /*vertical-align: bottom;*/ -webkit-flex: 3; -ms-flex: 3; flex: 3; background-color: #00f155; padding: 10px; }
+.person_collage { max-height: 100%; /*min-width: 100%;*/ /*object-fit: cover;*/ /*vertical-align: bottom;*/ -webkit-flex: 3; -ms-flex: 3; flex: 3; /*background-color: #00f155;*/ padding: 10px; }
 
 body { font-family: Arial, Helvetica, sans-serif; }
 
@@ -24,7 +24,7 @@ header { background-color: #666; padding: 30px; text-align: center; font-size: 3
 section { display: -webkit-flex; display: flex; }
 
 /* Style the navigation menu */
-nav { -webkit-flex: 1; -ms-flex: 1; flex: 1; background: #ccc; padding: 20px; }
+nav { -webkit-flex: 1; -ms-flex: 1; flex: 1; /*background: #ccc;*/ padding: 20px; }
 
 /* Style the list inside the menu */
 nav ul { list-style-type: none; padding: 0; }
